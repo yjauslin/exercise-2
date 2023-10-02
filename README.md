@@ -9,7 +9,7 @@
 
 2. **Launch GitHub Codespace**:
    - Navigate to your forked repository.
-   - Click on the green "Code" button and from the dropdown, select "Open with Codespaces". This initiates a cloud-based development environment directly within GitHub, tailored for the repository.
+   - Click on the green "Code" button and from the dropdown, select "Codespaces" and click on “Create codespace on main”.
 
 3. **Publish with Quarto**:
    - Within your Codespace terminal, enter the command:
@@ -18,16 +18,16 @@
      ```
    - This command instructs Quarto to compile and publish your notebook content to the `gh-pages` branch, which GitHub automatically uses to host web-accessible content.
 
-4. **Modify the Jupyter Notebook**:
+5. **Modify the Jupyter Notebook**:
    - In your Codespace, locate the `hello.ipynb` Jupyter notebook and open it.
    - Make some changes or additions to the notebook content. Feel free to get creative!
    - Save your changes once done.
 
-5. **Commit & Push**:
+6. **Commit & Push**:
    - In the source control panel of Codespaces (typically an icon that looks like a branching tree), stage your changes and commit them with a descriptive message.
    - Push your committed changes to your GitHub repository.
 
-6. **Review Your Live Notebook**:
+7. **Review Your Live Notebook**:
    - Once the changes are pushed, navigate to the URL associated with the `gh-pages` of your forked repository (typically in the format `https://[your-username].github.io/[repository-name]/`). You should see the updated Jupyter notebook content live!
 
 ### Reflection:
